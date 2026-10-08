@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="250" viewBox="0 0 400 250" fill="none">
+<style>
+.sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif} .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+
+.sweep{animation:sweep 3.2s cubic-bezier(.6,0,.2,1) infinite}
+@keyframes sweep{0%{transform:translateX(-140px)}60%,100%{transform:translateX(400px)}}
+.pulse{animation:pulse 2.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{opacity:.9}50%{opacity:.25}}
+.halo{animation:halo 2.6s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes halo{from{transform:scale(1);opacity:.5}to{transform:scale(1.55);opacity:0}}
+</style>
+<defs><pattern id="dotstown" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#1d2633"/></pattern><clipPath id="cardtown"><rect width="400" height="250" rx="18"/></clipPath></defs><rect width="400" height="250" rx="18" fill="#0a0e13"/><g clip-path="url(#cardtown)"><rect width="400" height="250" fill="url(#dotstown)" opacity=".55"/></g>
+<defs><linearGradient id="swtown" x1="0" x2="1"><stop offset="0" stop-color="#ffb547" stop-opacity="0"/><stop offset=".5" stop-color="#ffb547"/><stop offset="1" stop-color="#ffb547" stop-opacity="0"/></linearGradient><radialGradient id="gltown"><stop offset="0" stop-color="#ffb547" stop-opacity=".18"/><stop offset="1" stop-color="#ffb547" stop-opacity="0"/></radialGradient></defs>
+<g clip-path="url(#cardtown)"><circle cx="400" cy="0" r="200" fill="url(#gltown)"/><rect class="sweep" x="0" y="0" width="140" height="2.5" fill="url(#swtown)"/></g>
+<rect class="halo" x="28" y="28" width="48" height="48" rx="14" stroke="#ffb547"/>
+<rect x="28" y="28" width="48" height="48" rx="14" fill="#ffb547" fill-opacity=".12" stroke="#ffb547" stroke-opacity=".5"/>
+<g transform="translate(40,40)"><path d="m2 9 10-5 10 5-10 5L2 9Z" stroke="#ffb547" stroke-width="2" stroke-linejoin="round"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5M22 9v6" stroke="#ffb547" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="translate(306,38)"><g transform="translate(0,0)"><rect width="66" height="25" rx="12.5" fill="#0f141b" stroke="#ffb547" stroke-opacity=".45"/><text x="33.0" y="16.5" text-anchor="middle" class="mono" font-size="11" fill="#ffb547">EDTECH</text></g></g>
+<text x="28" y="118" class="sans" font-size="25" font-weight="700" fill="#e8edf3">Town Institutes</text>
+<text x="28" y="148" class="sans" font-size="15" fill="#8a97a8">Software training &amp; internships —</text>
+<text x="28" y="170" class="sans" font-size="15" fill="#8a97a8">Python, Java, React, Laravel.</text>
+<text x="28" y="192" class="sans" font-size="15" fill="#8a97a8">Open to every background.</text>
+<line x1="28" y1="204" x2="372" y2="204" stroke="#1d2633"/>
+<circle class="pulse" cx="34" cy="226" r="4" fill="#ffb547"/>
+<text x="46" y="230.5" class="mono" font-size="13.5" fill="#ffb547">towninstitutes.com</text>
+<text x="372" y="231" text-anchor="end" class="mono" font-size="15" fill="#ffb547">↗</text>
+<rect x=".5" y=".5" width="399" height="249" rx="17.5" stroke="#1d2633"/>
+</svg>

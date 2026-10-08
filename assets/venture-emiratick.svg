@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="250" viewBox="0 0 400 250" fill="none">
+<style>
+.sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif} .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+
+.sweep{animation:sweep 3.2s cubic-bezier(.6,0,.2,1) infinite}
+@keyframes sweep{0%{transform:translateX(-140px)}60%,100%{transform:translateX(400px)}}
+.pulse{animation:pulse 2.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{opacity:.9}50%{opacity:.25}}
+.halo{animation:halo 2.6s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes halo{from{transform:scale(1);opacity:.5}to{transform:scale(1.55);opacity:0}}
+</style>
+<defs><pattern id="dotsemiratick" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#1d2633"/></pattern><clipPath id="cardemiratick"><rect width="400" height="250" rx="18"/></clipPath></defs><rect width="400" height="250" rx="18" fill="#0a0e13"/><g clip-path="url(#cardemiratick)"><rect width="400" height="250" fill="url(#dotsemiratick)" opacity=".55"/></g>
+<defs><linearGradient id="swemiratick" x1="0" x2="1"><stop offset="0" stop-color="#3ddc97" stop-opacity="0"/><stop offset=".5" stop-color="#3ddc97"/><stop offset="1" stop-color="#3ddc97" stop-opacity="0"/></linearGradient><radialGradient id="glemiratick"><stop offset="0" stop-color="#3ddc97" stop-opacity=".18"/><stop offset="1" stop-color="#3ddc97" stop-opacity="0"/></radialGradient></defs>
+<g clip-path="url(#cardemiratick)"><circle cx="400" cy="0" r="200" fill="url(#glemiratick)"/><rect class="sweep" x="0" y="0" width="140" height="2.5" fill="url(#swemiratick)"/></g>
+<rect class="halo" x="28" y="28" width="48" height="48" rx="14" stroke="#3ddc97"/>
+<rect x="28" y="28" width="48" height="48" rx="14" fill="#3ddc97" fill-opacity=".12" stroke="#3ddc97" stroke-opacity=".5"/>
+<g transform="translate(40,40)"><path d="M4 18 6 12.8A8 8 0 1 1 9.4 16L4 18Z" stroke="#3ddc97" stroke-width="2" stroke-linejoin="round"/><path d="M9 10h6M9 13h3.5" stroke="#3ddc97" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="translate(319,38)"><g transform="translate(0,0)"><rect width="53" height="25" rx="12.5" fill="#0f141b" stroke="#3ddc97" stroke-opacity=".45"/><text x="26.5" y="16.5" text-anchor="middle" class="mono" font-size="11" fill="#3ddc97">SAAS</text></g></g>
+<text x="28" y="118" class="sans" font-size="25" font-weight="700" fill="#e8edf3">Emiratick</text>
+<text x="28" y="148" class="sans" font-size="15" fill="#8a97a8">WhatsApp Cloud API platform for</text>
+<text x="28" y="170" class="sans" font-size="15" fill="#8a97a8">business messaging, campaigns</text>
+<text x="28" y="192" class="sans" font-size="15" fill="#8a97a8">and automation.</text>
+<line x1="28" y1="204" x2="372" y2="204" stroke="#1d2633"/>
+<circle class="pulse" cx="34" cy="226" r="4" fill="#3ddc97"/>
+<text x="46" y="230.5" class="mono" font-size="13.5" fill="#3ddc97">emiratick.ae</text>
+<text x="372" y="231" text-anchor="end" class="mono" font-size="15" fill="#3ddc97">↗</text>
+<rect x=".5" y=".5" width="399" height="249" rx="17.5" stroke="#1d2633"/>
+</svg>

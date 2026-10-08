@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="590" height="330" viewBox="0 0 590 330" fill="none">
+<style>
+.sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif} .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+
+.caret{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+</style>
+<defs><pattern id="dotsn" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#1d2633"/></pattern><clipPath id="cardn"><rect width="590" height="330" rx="18"/></clipPath></defs><rect width="590" height="330" rx="18" fill="#0a0e13"/><g clip-path="url(#cardn)"><rect width="590" height="330" fill="url(#dotsn)" opacity=".55"/></g>
+<rect x="1" y="1" width="588" height="50" rx="17" fill="#0f141b"/><rect x="1" y="34" width="588" height="17" fill="#0f141b"/>
+<line x1="1" y1="51" x2="589" y2="51" stroke="#1d2633"/>
+<circle cx="30" cy="26" r="6" fill="#ff5b5b" fill-opacity=".85"/>
+<circle cx="50" cy="26" r="6" fill="#ffb547" fill-opacity=".85"/>
+<circle cx="70" cy="26" r="6" fill="#3ddc97" fill-opacity=".85"/>
+<text x="295.0" y="31" text-anchor="middle" class="mono" font-size="12.5" fill="#8a97a8">abhin@town ~ now</text>
+<g opacity="0"><animate attributeName="opacity" dur="9.60s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0312;0.96" values="0;1;0"/><text x="28" y="92" class="mono" font-size="15" fill="#8a97a8">$</text><text x="50" y="92" class="mono" font-size="15" fill="#8a97a8">whoami --now</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="9.60s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0885;0.96" values="0;1;0"/><text x="28" y="128" class="mono" font-size="15" fill="#ff5b5b">&gt;</text><text x="50" y="128" class="mono" font-size="15" fill="#e8edf3">launching loopstitch.online</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="9.60s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.1458;0.96" values="0;1;0"/><text x="28" y="164" class="mono" font-size="15" fill="#3ddc97">&gt;</text><text x="50" y="164" class="mono" font-size="15" fill="#e8edf3">building an AI voice-calling agent</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="9.60s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2031;0.96" values="0;1;0"/><text x="28" y="200" class="mono" font-size="15" fill="#3ddc97">&gt;</text><text x="50" y="200" class="mono" font-size="15" fill="#e8edf3">scaling Emiratick for more brands</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="9.60s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2604;0.96" values="0;1;0"/><text x="28" y="236" class="mono" font-size="15" fill="#ffb547">&gt;</text><text x="50" y="236" class="mono" font-size="15" fill="#e8edf3">training devs at Town Institutes</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="9.60s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3177;0.96" values="0;1;0"/><text x="28" y="272" class="mono" font-size="15" fill="#5aa9ff">&gt;</text><text x="50" y="272" class="mono" font-size="15" fill="#e8edf3">taking on dashboard &amp; CRM projects</text></g>
+<text x="28" y="308" class="mono" font-size="15" fill="#3ddc97">$</text>
+<rect class="caret" x="50" y="294" width="9" height="18" fill="#3ddc97"/>
+<rect x=".5" y=".5" width="589" height="329" rx="17.5" stroke="#1d2633"/>
+</svg>
