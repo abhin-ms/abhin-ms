@@ -51,6 +51,7 @@
 
 **Have a dashboard, CRM or WhatsApp automation project?** Let's talk.
 
+<a href="mailto:abhiabhinms@gmail.com"><img src="https://img.shields.io/badge/abhiabhinms@gmail.com-0A0E13?style=for-the-badge&logo=gmail&logoColor=3DDC97" alt="Email"/></a>
 <a href="https://emiratick.ae"><img src="https://img.shields.io/badge/emiratick.ae-0A0E13?style=for-the-badge&logo=whatsapp&logoColor=3DDC97" alt="emiratick.ae"/></a>
 <a href="https://loopstitch.online"><img src="https://img.shields.io/badge/loopstitch.online-0A0E13?style=for-the-badge&logo=shopify&logoColor=FF5B5B" alt="loopstitch.online"/></a>
 <a href="https://towninstitutes.com"><img src="https://img.shields.io/badge/towninstitutes.com-0A0E13?style=for-the-badge&logo=googleclassroom&logoColor=FFB547" alt="towninstitutes.com"/></a>
