@@ -517,6 +517,8 @@ def readme():
         ext_pic(snake.format("-dark"), snake.format(""), "Snake eating my contribution graph"),
         f'<a href="mailto:{EMAIL}">{pic("compose", COMPOSE)}</a>',
         f'<p><a href="mailto:{EMAIL}">Email</a> &nbsp;&nbsp;&nbsp; '
+        f'<a href="https://www.linkedin.com/in/abhin-ms-617751195">LinkedIn</a> &nbsp;&nbsp;&nbsp; '
+        f'<a href="https://www.instagram.com/abhin_.ms">Instagram</a> &nbsp;&nbsp;&nbsp; '
         f'<a href="https://www.instagram.com/loopstitch_co">Loopstitch on Instagram</a> &nbsp;&nbsp;&nbsp; '
         f'<img src="https://komarev.com/ghpvc/?username=abhin-ms&color=a65f00&style=flat-square&label=profile%20views" '
         f'alt="Profile views" align="absmiddle"></p>',
